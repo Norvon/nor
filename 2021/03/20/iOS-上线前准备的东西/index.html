@@ -20,20 +20,19 @@
     var CONFIG = {"hostname":"www.norvon.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":"enabel","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。 我们可以进入 ～&#x2F;.ssh 目录下执行这个代码进行密码修改： ssh-keygen -f id_rsa -p 然后先输入原密码，在设置新密码的时候回车就可以，确认密码一样回车。">
+  <meta name="description" content="App 信息 名称 25字 隐私政策网址(URL)  链接至您的隐私政策的网址 (URL)。所有 App 都必须提供隐私政策。 副标题 30字 这是您 App 的一份摘要，它会显示在 iOS 11 或更高版本的 App Store 以及 macOS Mojave 或更高版本的 Mac App Store 中的 App 名称下方。 分级  此 App 分级将在所有平台的 App Store 中显示。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git clone 使用 ssh 为什么还要输入密码">
-<meta property="og:url" content="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/index.html">
+<meta property="og:title" content="iOS 上线前准备的东西">
+<meta property="og:url" content="http://www.norvon.cn/2021/03/20/iOS-%E4%B8%8A%E7%BA%BF%E5%89%8D%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF/index.html">
 <meta property="og:site_name" content="Norvon">
-<meta property="og:description" content="用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。 我们可以进入 ～&#x2F;.ssh 目录下执行这个代码进行密码修改： ssh-keygen -f id_rsa -p 然后先输入原密码，在设置新密码的时候回车就可以，确认密码一样回车。">
+<meta property="og:description" content="App 信息 名称 25字 隐私政策网址(URL)  链接至您的隐私政策的网址 (URL)。所有 App 都必须提供隐私政策。 副标题 30字 这是您 App 的一份摘要，它会显示在 iOS 11 或更高版本的 App Store 以及 macOS Mojave 或更高版本的 Mac App Store 中的 App 名称下方。 分级  此 App 分级将在所有平台的 App Store 中显示。">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-03-20T03:30:02.000Z">
-<meta property="article:modified_time" content="2021-03-20T05:56:50.255Z">
+<meta property="article:published_time" content="2021-03-20T06:19:30.000Z">
+<meta property="article:modified_time" content="2021-03-20T06:21:10.754Z">
 <meta property="article:author" content="Norvon">
-<meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/">
+<link rel="canonical" href="http://www.norvon.cn/2021/03/20/iOS-%E4%B8%8A%E7%BA%BF%E5%89%8D%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF/">
 
 
 <script id="page-configurations">
@@ -46,7 +45,7 @@
   };
 </script>
 
-  <title>git clone 使用 ssh 为什么还要输入密码 | Norvon</title>
+  <title>iOS 上线前准备的东西 | Norvon</title>
   
 
 
@@ -195,7 +194,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/">
+    <link itemprop="mainEntityOfPage" href="http://www.norvon.cn/2021/03/20/iOS-%E4%B8%8A%E7%BA%BF%E5%89%8D%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -208,7 +207,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          git clone 使用 ssh 为什么还要输入密码
+          iOS 上线前准备的东西
         </h1>
 
         <div class="post-meta">
@@ -219,7 +218,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-03-20 11:30:02 / 修改时间：13:56:50" itemprop="dateCreated datePublished" datetime="2021-03-20T11:30:02+08:00">2021-03-20</time>
+              <time title="创建时间：2021-03-20 14:19:30 / 修改时间：14:21:10" itemprop="dateCreated datePublished" datetime="2021-03-20T14:19:30+08:00">2021-03-20</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -227,7 +226,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%97%AE%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">问题</span></a>
+                  <a href="/categories/iOS/" itemprop="url" rel="index"><span itemprop="name">iOS</span></a>
                 </span>
             </span>
 
@@ -242,10 +241,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。</p>
-<p>我们可以进入 ～/.ssh 目录下执行这个代码进行密码修改：</p>
-<p><code>ssh-keygen -f id_rsa -p</code></p>
-<p>然后先输入原密码，在设置<strong>新密码</strong>的时候<strong>回车</strong>就可以，确认密码一样回车。</p>
+        <h3 id="App-信息"><a href="#App-信息" class="headerlink" title="App 信息"></a>App 信息</h3><ol>
+<li>名称 <del>25字</del></li>
+<li>隐私政策网址(URL)  <code>链接至您的隐私政策的网址 (URL)。所有 App 都必须提供隐私政策。</code></li>
+<li>副标题 <del>30字</del> <code>这是您 App 的一份摘要，它会显示在 iOS 11 或更高版本的 App Store 以及 macOS Mojave 或更高版本的 Mac App Store 中的 App 名称下方。</code></li>
+<li>分级  <code>此 App 分级将在所有平台的 App Store 中显示。此分级根据分级限制最高的 App 平台而定</code></li>
+<li>主要语言 <code>如果某个 App Store 地区没有提供本地化的 App 信息，那么 App 信息将以主要语言呈现。了解更多</code></li>
+<li>类别 <code>最能准确描述此 App 的类别</code></li>
+</ol>
+<h3 id="版本信息"><a href="#版本信息" class="headerlink" title="版本信息"></a>版本信息</h3><ol>
+<li>App 预览和屏幕快照 <code>屏幕快照必须为 JPG 或 PNG 格式，且必须采用 RGB 颜色空间。App 预览必须为 M4V、MP4 或 MOV 格式，且不能超过 500 MB。了解更多</code></li>
+<li>宣传文本 <del>170字</del> <code>宣传文本可使您在无需提交更新请求的情况下，通知 App Store 访客当前最新的 App 功能。如果客户的设备运行 iOS 11 或更高版本，以及 macOS 10.13 或更高版本，那么在 App Store 中，宣传文本会显示在您的 App 描述上方。</code></li>
+<li>关键词 <del>100字</del> <code>添加一个或多个关键词以描述您的 App。关键词将使 App Store 搜索结果更加准确。关键词之间用英文逗号或中文逗号（或两者混合使用）分隔。</code></li>
+<li>描述 <del>4000字</del><code>对您 App 的描述，用以详细说明特性和功能。它还将用于您的 Apple Watch App。</code></li>
+<li>技术支持网址(URL) <code>您的 App 技术支持信息网址(URL)。该网址(URL)将会在 App Store 中显示。</code></li>
+<li>营销网址(URL) <del>可不填</del><code>您的 App 营销信息网址(URL)。该网址(URL)会在 App Store 中显示。</code></li>
+</ol>
+<h3 id="App-综合信息"><a href="#App-综合信息" class="headerlink" title="App 综合信息"></a>App 综合信息</h3><ol>
+<li>版权 <code>拥有您的 App 专有权的人员或实体的名称，前面是获得权利的年份（例如“2008 Acme Inc”）。请勿提供网址(URL)。</code></li>
+<li>商务代表联系信息 <code>您可以为您的 App 在韩国 App Store 中提供额外信息，这一额外信息只会显示在韩国 App Store 中。</code></li>
+<li>路由 App 覆盖地区文件 <del>可不填</del> <code>指定您的 App 所支持的区域。文件格式必须为 .geojson 并且只能包含一个 MultiPolygon 元素。</code></li>
+</ol>
+<h3 id="App-审核信息"><a href="#App-审核信息" class="headerlink" title="App 审核信息"></a>App 审核信息</h3><ol>
+<li>登录信息 <code>此用户名和密码可让我们登录您的 App 以审查所有功能。如果用户使用社交媒体登录，请提供我们可以使用的帐户信息。该帐户信息须有效，并且在审核期间保持可用的状态。</code></li>
+<li>备注 <code>对审核过程会有所帮助的、有关您 App 的额外信息, 包括在测试中需要的 App 特别设置等。</code></li>
+<li>附件 <code>您可以附加特定的 App 文稿、演示视频和 其他内容，以防止 App 审核延期。请确保 您的文件使用下列扩展名：.pdf、.doc、 .docx、.rtf、.pages、.xls、.xlsx、 .numbers、.zip、.rar、.plist、.crash、 .jpg、.png、.mp4 或 .avi。</code></li>
+<li>联系信息 <code>当 App 审核团队有任何问题或需要额外信息时, 您所在机构的联系人信息。</code></li>
+</ol>
+<h3 id="填写说明"><a href="#填写说明" class="headerlink" title="填写说明"></a>填写说明</h3><ul>
+<li>测试账户</li>
+<li>支付说明</li>
+</ul>
 
     </div>
 
@@ -254,9 +280,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/git/" rel="tag"># git</a>
-          </div>
 
         
 
@@ -264,13 +287,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/03/05/20190305220612-CocoaPodsProblem/" rel="prev" title="CocoaPods 相关问题">
-      <i class="fa fa-chevron-left"></i> CocoaPods 相关问题
+    <a href="/2021/03/20/brew-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" rel="prev" title="brew 基本使用">
+      <i class="fa fa-chevron-left"></i> brew 基本使用
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/03/20/%E5%9C%A8Atom-%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D/" rel="next" title="在 Atom 中使用正则匹配">
-      在 Atom 中使用正则匹配 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -329,6 +349,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#App-%E4%BF%A1%E6%81%AF"><span class="nav-number">1.</span> <span class="nav-text">App 信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="nav-number">2.</span> <span class="nav-text">版本信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#App-%E7%BB%BC%E5%90%88%E4%BF%A1%E6%81%AF"><span class="nav-number">3.</span> <span class="nav-text">App 综合信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#App-%E5%AE%A1%E6%A0%B8%E4%BF%A1%E6%81%AF"><span class="nav-number">4.</span> <span class="nav-text">App 审核信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A1%AB%E5%86%99%E8%AF%B4%E6%98%8E"><span class="nav-number">5.</span> <span class="nav-text">填写说明</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

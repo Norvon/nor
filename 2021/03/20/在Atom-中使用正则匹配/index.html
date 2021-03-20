@@ -20,20 +20,22 @@
     var CONFIG = {"hostname":"www.norvon.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":"enabel","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。 我们可以进入 ～&#x2F;.ssh 目录下执行这个代码进行密码修改： ssh-keygen -f id_rsa -p 然后先输入原密码，在设置新密码的时候回车就可以，确认密码一样回车。">
+  <meta name="description" content="JSON原始数据(只拿取小部分数据进行演示): 123456789101112131415161718[&amp;#123;  &quot;image_id&quot;: &quot;1&quot;,  &quot;image_url&quot;: &quot;图片URL&quot;,  &quot;author_name&quot;: &quot;作者名称&quot;,  &quot;author_ic">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git clone 使用 ssh 为什么还要输入密码">
-<meta property="og:url" content="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/index.html">
+<meta property="og:title" content="在 Atom 中使用正则匹配">
+<meta property="og:url" content="http://www.norvon.cn/2021/03/20/%E5%9C%A8Atom-%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D/index.html">
 <meta property="og:site_name" content="Norvon">
-<meta property="og:description" content="用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。 我们可以进入 ～&#x2F;.ssh 目录下执行这个代码进行密码修改： ssh-keygen -f id_rsa -p 然后先输入原密码，在设置新密码的时候回车就可以，确认密码一样回车。">
+<meta property="og:description" content="JSON原始数据(只拿取小部分数据进行演示): 123456789101112131415161718[&amp;#123;  &quot;image_id&quot;: &quot;1&quot;,  &quot;image_url&quot;: &quot;图片URL&quot;,  &quot;author_name&quot;: &quot;作者名称&quot;,  &quot;author_ic">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-03-20T03:30:02.000Z">
-<meta property="article:modified_time" content="2021-03-20T05:56:50.255Z">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2019/5/30/16b082f7f5618265?w=2082&h=250&f=jpeg&s=79521">
+<meta property="article:published_time" content="2021-03-20T05:43:59.000Z">
+<meta property="article:modified_time" content="2021-03-20T05:56:32.714Z">
 <meta property="article:author" content="Norvon">
-<meta property="article:tag" content="git">
+<meta property="article:tag" content="正则">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2019/5/30/16b082f7f5618265?w=2082&h=250&f=jpeg&s=79521">
 
-<link rel="canonical" href="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/">
+<link rel="canonical" href="http://www.norvon.cn/2021/03/20/%E5%9C%A8Atom-%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D/">
 
 
 <script id="page-configurations">
@@ -46,7 +48,7 @@
   };
 </script>
 
-  <title>git clone 使用 ssh 为什么还要输入密码 | Norvon</title>
+  <title>在 Atom 中使用正则匹配 | Norvon</title>
   
 
 
@@ -195,7 +197,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/">
+    <link itemprop="mainEntityOfPage" href="http://www.norvon.cn/2021/03/20/%E5%9C%A8Atom-%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -208,7 +210,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          git clone 使用 ssh 为什么还要输入密码
+          在 Atom 中使用正则匹配
         </h1>
 
         <div class="post-meta">
@@ -219,7 +221,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-03-20 11:30:02 / 修改时间：13:56:50" itemprop="dateCreated datePublished" datetime="2021-03-20T11:30:02+08:00">2021-03-20</time>
+              <time title="创建时间：2021-03-20 13:43:59 / 修改时间：13:56:32" itemprop="dateCreated datePublished" datetime="2021-03-20T13:43:59+08:00">2021-03-20</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -242,10 +244,20 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>用 ssh 克隆代码后，push 和 pull 都需要输入密码。这是因为我们在最开始创建公私钥的时候，设置了访问私钥需要密码导致的。</p>
-<p>我们可以进入 ～/.ssh 目录下执行这个代码进行密码修改：</p>
-<p><code>ssh-keygen -f id_rsa -p</code></p>
-<p>然后先输入原密码，在设置<strong>新密码</strong>的时候<strong>回车</strong>就可以，确认密码一样回车。</p>
+        <p>JSON原始数据(只拿取小部分数据进行演示):</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="string">&quot;1&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="string">&quot;2&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="string">&quot;3&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>我们希望把JSON原始数据中所有<code>image_id</code>的<strong>字符串类型的</strong>值都替换为<strong>数值类型</strong>, 结果数据如下:</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="number">2</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;image_id&quot;</span>: <span class="number">3</span>,</span><br><span class="line">  <span class="attr">&quot;image_url&quot;</span>: <span class="string">&quot;图片URL&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_name&quot;</span>: <span class="string">&quot;作者名称&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;author_icon&quot;</span>: <span class="string">&quot;作者头像&quot;</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><ol>
+<li><p>选择替换中的正则替换<br><img src="https://user-gold-cdn.xitu.io/2019/5/30/16b082f7f5618265?w=2082&h=250&f=jpeg&s=79521"></p>
+</li>
+<li><p>输入查询条件<br><code>&quot;image_id&quot;: &quot;(\d+)&quot;</code> </p>
+</li>
+</ol>
+<p><strong>注意</strong>: <code>\d+</code> 必须要用 <code>()</code>, 应为替换的时候要用的里面的数字<br>3. 输入替换条件<br><code>&quot;image_id&quot;: $1</code><br><strong>注意</strong>: <code>$1</code> 即为输入条件<code>()</code>内的参数, 如果有多个参数查询条件用<code>()</code>, 替换时变量依次对应<code>$1、$2、$3...</code></p>
 
     </div>
 
@@ -255,7 +267,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/git/" rel="tag"># git</a>
+              <a href="/tags/%E6%AD%A3%E5%88%99/" rel="tag"># 正则</a>
           </div>
 
         
@@ -264,12 +276,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/03/05/20190305220612-CocoaPodsProblem/" rel="prev" title="CocoaPods 相关问题">
-      <i class="fa fa-chevron-left"></i> CocoaPods 相关问题
+    <a href="/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/" rel="prev" title="git clone 使用 ssh 为什么还要输入密码">
+      <i class="fa fa-chevron-left"></i> git clone 使用 ssh 为什么还要输入密码
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/03/20/%E5%9C%A8Atom-%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D/" rel="next" title="在 Atom 中使用正则匹配">
-      在 Atom 中使用正则匹配 <i class="fa fa-chevron-right"></i>
+    <a href="/2021/03/20/Reveal-%E8%B0%83%E8%AF%95%E5%BA%94%E7%94%A8/" rel="next" title="Reveal 调试应用">
+      Reveal 调试应用 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -329,6 +341,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9E%E7%8E%B0"><span class="nav-number">2.</span> <span class="nav-text">实现</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
