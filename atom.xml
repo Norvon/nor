@@ -3,11 +3,11 @@
   <title>Norvon</title>
   
   
-  <link href="https://norvon.github.io/atom.xml" rel="self"/>
+  <link href="http://www.norvon.cn/atom.xml" rel="self"/>
   
-  <link href="https://norvon.github.io/"/>
+  <link href="http://www.norvon.cn/"/>
   <updated>2021-03-20T03:37:56.210Z</updated>
-  <id>https://norvon.github.io/</id>
+  <id>http://www.norvon.cn/</id>
   
   <author>
     <name>Norvon</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>git clone 使用 ssh 为什么还要输入密码</title>
-    <link href="https://norvon.github.io/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/"/>
-    <id>https://norvon.github.io/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/</id>
+    <link href="http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/"/>
+    <id>http://www.norvon.cn/2021/03/20/git-clone-%E4%BD%BF%E7%94%A8-ssh-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81/</id>
     <published>2021-03-20T03:30:02.000Z</published>
     <updated>2021-03-20T03:37:56.210Z</updated>
     
@@ -36,17 +36,17 @@
     
     
     
-    <category term="问题记录" scheme="https://norvon.github.io/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <category term="问题记录" scheme="http://www.norvon.cn/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="问题" scheme="https://norvon.github.io/tags/%E9%97%AE%E9%A2%98/"/>
+    <category term="问题" scheme="http://www.norvon.cn/tags/%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>CocoaPods 相关问题</title>
-    <link href="https://norvon.github.io/2019/03/05/20190305220612-CocoaPodsProblem/"/>
-    <id>https://norvon.github.io/2019/03/05/20190305220612-CocoaPodsProblem/</id>
+    <link href="http://www.norvon.cn/2019/03/05/20190305220612-CocoaPodsProblem/"/>
+    <id>http://www.norvon.cn/2019/03/05/20190305220612-CocoaPodsProblem/</id>
     <published>2019-03-05T14:07:59.000Z</published>
     <updated>2021-03-20T01:17:01.107Z</updated>
     
@@ -56,10 +56,10 @@
     
     
     
-    <category term="iOS" scheme="https://norvon.github.io/categories/iOS/"/>
+    <category term="iOS" scheme="http://www.norvon.cn/categories/iOS/"/>
     
     
-    <category term="CocoaPods" scheme="https://norvon.github.io/tags/CocoaPods/"/>
+    <category term="CocoaPods" scheme="http://www.norvon.cn/tags/CocoaPods/"/>
     
   </entry>
   
