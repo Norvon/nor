@@ -13,6 +13,11 @@
     <name>Norvon</name>
     
   </author>
+
+  <follow_challenge>
+    <feedId>73957745959827456</feedId>
+    <userId>56693595539570688</userId>
+  </follow_challenge>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
